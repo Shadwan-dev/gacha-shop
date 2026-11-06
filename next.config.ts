@@ -2,9 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  experimental: {
-    reactCompiler: true, // usa babel-plugin-react-compiler
-  },
+  reactCompiler: true, // 👈 Ahora va aquí, no dentro de experimental
 };
 
 export default nextConfig;
